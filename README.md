@@ -1,2 +1,6 @@
 # N64-Gameshark-EEPROM-dumps
-This is a dump of all of the N64 Gameshark EEPROM chips that I have been able to buy or borrow. Let me know if you have more!
+This is a dump of all of the N64 Gameshark EEPROM chips that I have been able to buy or borrow. Let me know if you have more, I can add it to this. I mostly keep the older versions for historical purposes, if you just want the best or most current firmware revision (that works with the most games) 3.30 is the firmware you want to use. I obtained it by using the Windows XP/98 Gameshark PC Program and a serial cable on "3.2" hardware. There is 3.30 gamesharks from the factory, however they lack the serial port on the back and digital counter on the front of the hardware. The 3.3 firmware from the pc program seems different from the firmware on the 3.3 cartridges from the factory; however as far as I can tell ALL versions of the gameshark firmware are compatible with ALL hardware revisions. I have put 1.0 firmware on a 3.2 gameshark just to see
+
+The chip programmer I used is found on Amazon and is listed as Tl866ii, the chip type that holds the information on the gamesharks is PLCC32. Make sure your eeprom reader/writer has a socket that can fit those. 
+
+I desoldered various chips and dumped them directly, although nowadays the sanni cart reader supposedly can rewrite the chips without opening the gamesharks.
